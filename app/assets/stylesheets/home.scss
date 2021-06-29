@@ -1,0 +1,150 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+$base-color: #2e3638;
+$base-lighter: #9dabaf;
+$light-background: #f9fafa;
+$ot-blue: #1b3158;
+$ley-gold: #f2cf4e;
+
+.devise-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.menu-h{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.home-mid h3 {
+  font-size: 12pt;
+  text-align: center;
+  padding-bottom: 10px;
+  color: $base-color;
+}
+
+.home{
+  margin: 0 15%;
+  line-height: 1.6;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.menu-img{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.menu-img img{
+  width: 100%;
+}
+
+
+.home-img{
+  width:30%;
+  padding-bottom: 40px;
+}
+
+.home-img img{
+  width:100%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px  #888888;
+}
+
+.home-button{
+    text-align: center;
+    margin: 20px; 
+
+      a:hover {
+        color: $ley-gold;
+      }
+      a:active { /* Green */
+        color: $base-lighter; /* Green */
+        border: 1px solid #ffffff;
+        box-shadow: none;
+      }
+
+      a {
+        box-shadow: 0px 1px 3px  #888888;
+        border-radius: 50px;
+        margin: auto;
+        font-family: 'Raleway', sans-serif;
+        cursor: pointer;
+        border: 1px solid $ot-blue;
+        padding: 12px 20px;
+        background-color: $ot-blue; /* Green */
+        color: $light-background;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        width: 200px;
+        outline:none;
+      }
+}
+
+
+.demo-img{
+  width:60%;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.demo-img img{
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px  #888888;
+}
+
+.home .home-top{
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 40px;
+}
+
+.home .home-mid{
+  border-radius: 5px;
+  margin: 20px 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 4px  #888888;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.home-mid h1{
+  padding-top: 0px;
+  text-align: center;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36pt;
+  padding-bottom: 40px;
+}
+
+.home-mid h2{
+  color: $ot-blue;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 24pt;
+}
+
+.home-mid p{
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 1.6;
+  font-size: 14pt;
+  margin-bottom: 20px;
+}
+
